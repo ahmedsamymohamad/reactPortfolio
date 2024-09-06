@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer'
 import './App.css'
 import Certificates from './components/Certificates/Certificates'
 
-const App = () => {
+function App () {
   const [{ themeName }] = useContext(ThemeContext)
 
   return (

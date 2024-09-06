@@ -3,7 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import LaunchIcon from '@mui/icons-material/Launch'
 import './ProjectContainer.css'
 
-const ProjectContainer = ({ project }) => (
+function ProjectContainer ({ project })  {
   <div className='project'>
     <h3>{project.name}</h3>
     <img className='project__image' alt='project1' src={project.image}/>
@@ -40,6 +40,6 @@ const ProjectContainer = ({ project }) => (
       )}
     </div>
   </div>
-)
+}
 
 export default ProjectContainer

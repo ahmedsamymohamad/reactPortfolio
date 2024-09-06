@@ -1,6 +1,6 @@
 import './Footer.css'
 
-const Footer = () => (
+function Footer() {
   <footer className='footer'>
     <a
       href='https://github.com/rjshkhr/cleanfolio'
@@ -9,6 +9,6 @@ const Footer = () => (
       Created By Ahmed Abdelwahab
     </a>
   </footer>
-)
+}
 
 export default Footer

@@ -3,7 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 
-const About = () => {
+function About() {
   const { name, role, description, resume, social } = about
 
   return (
