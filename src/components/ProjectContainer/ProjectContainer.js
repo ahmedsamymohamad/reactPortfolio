@@ -4,6 +4,7 @@ import LaunchIcon from '@mui/icons-material/Launch'
 import './ProjectContainer.css'
 
 function ProjectContainer ({ project })  {
+  return(
   <div className='project'>
     <h3>{project.name}</h3>
     <img className='project__image' alt='project1' src={project.image}/>
@@ -40,6 +41,6 @@ function ProjectContainer ({ project })  {
       )}
     </div>
   </div>
-}
+)}
 
 export default ProjectContainer

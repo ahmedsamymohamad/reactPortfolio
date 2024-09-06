@@ -3,7 +3,9 @@ import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './Projects.css'
 
-function Projects () {
+
+ function Projects () {
+  console.log("projects",projects)
   if (!projects.length) return null
 
   return (
