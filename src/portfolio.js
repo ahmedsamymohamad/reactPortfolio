@@ -1,7 +1,7 @@
-import recipeSharingImage from './assets/images/recipe-sharing.png'
-import plogImage from './assets/images/plog.png'
-import TaskImage from './assets/images/task.png'
-import chatCampImage from './assets/images/chatCamp.png'
+import recipeSharingImage from 'https://res.cloudinary.com/ddugacy0y/image/upload/v1725631589/recipe-sharing_rpct3s.png'
+import plogImage from 'https://res.cloudinary.com/ddugacy0y/image/upload/v1725631590/plog_mcvuhv.png'
+import TaskImage from 'https://res.cloudinary.com/ddugacy0y/image/upload/v1725631589/task_uibwxf.png'
+import chatCampImage from 'https://res.cloudinary.com/ddugacy0y/image/upload/v1725631588/chatCamp_pnii8z.png'
 
 
 const header = {
