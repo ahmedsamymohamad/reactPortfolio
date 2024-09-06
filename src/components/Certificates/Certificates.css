@@ -1,0 +1,30 @@
+.certificates__list {
+    max-width: 450px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certificate__item {
+    display: flex;
+    flex-direction: column;
+    border-left: solid;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+
+    .date {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .organization {
+        font-size: 15px;
+    }
+
+}
